@@ -14,6 +14,18 @@
       />
     </section>
     <section class="flex flex-col gap-4">
+      <h2 class="text-3xl font-bold text-center">Pricing</h2>
+      <div class="flex flex-wrap gap-4 justify-center">
+        <Pricing
+          v-for="pricingOption in pricingOptions"
+          :key="pricingOption.id"
+          :title="pricingOption.name"
+          :cost="pricingOption.price"
+          :text="pricingOption.description"
+        />
+      </div>
+    </section>
+    <section class="flex flex-col gap-4">
       <h2 class="text-3xl font-bold text-center">
         Testimonials from our trusted customers
       </h2>
@@ -92,6 +104,30 @@ const features = [
     text: "Behold the majestic rings of Saturn, the sixth planet from the sun. Saturn's stunning ring system sets it apart in the night sky. Own a piece of Saturn and marvel at the celestial beauty that has fascinated astronomers for centuries.",
     imagePath: 'simon-lee-z1vpjHAq1o8-unsplash.jpg',
     imgAlt: 'Saturn',
+  },
+];
+
+const pricingOptions = [
+  {
+    id: 0,
+    name: "Explorer's Delight",
+    price: '99.99',
+    description:
+      'Explore the wonders of the solar system with our Starter Package. Perfect for beginners!',
+  },
+  {
+    id: 1,
+    name: 'Celestial Harmony',
+    price: '249.99',
+    description:
+      'Immerse yourself in the beauty of the solar system with our Premium Package. Experience a more comprehensive collection!',
+  },
+  {
+    id: 2,
+    name: 'Galactic Masterpiece',
+    price: '499.99',
+    description:
+      'Elevate your space with our Ultimate Collection, a true Galactic Masterpiece. Ideal for collectors and enthusiasts!',
   },
 ];
 

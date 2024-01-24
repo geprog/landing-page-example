@@ -1,5 +1,5 @@
 <template>
-  <header class="navbar fixed z-10 bg-neutral shadow-sm">
+  <header class="navbar fixed z-10 glass shadow-sm">
     <div class="navbar-start">
       <a class="btn btn-ghost text-xl">LandingPage</a>
     </div>
