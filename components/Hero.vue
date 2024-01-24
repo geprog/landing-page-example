@@ -17,7 +17,7 @@
           like never before. Your cosmic journey starts here. Seize the
           opportunity today!
         </p>
-        <button class="btn btn-primary">Call to action</button>
+        <button class="btn btn-secondary">Call to action</button>
       </div>
     </div>
   </div>

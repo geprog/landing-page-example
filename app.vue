@@ -30,7 +30,7 @@
     </section>
     <section class="flex flex-col gap-4">
       <h2 class="text-3xl font-bold text-center">FAQ</h2>
-      <div class="flex flex-col bg-accent rounded-lg">
+      <div class="flex flex-col bg-primary rounded-lg">
         <Faq
           v-for="faq in faqs"
           :key="faq.id"

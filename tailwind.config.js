@@ -8,10 +8,10 @@ export default {
     themes: [
       {
         companytheme: {
-          primary: '#43766C',
-          secondary: '#76453B',
-          accent: '#B19470',
-          neutral: '#F8FAE5',
+          primary: '#5C8374',
+          secondary: '#9EC8B9',
+          accent: '#1B4242',
+          neutral: '#092635',
         },
       },
     ],

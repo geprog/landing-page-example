@@ -4,7 +4,7 @@
       <a class="btn btn-ghost text-xl">LandingPage</a>
     </div>
     <div class="navbar-end">
-      <a class="btn">Call to Action</a>
+      <a class="btn btn-secondary">Call to Action</a>
     </div>
   </header>
 </template>

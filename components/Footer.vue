@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer p-10 bg-primary text-neutral">
+  <footer class="footer p-10 bg-neutral">
     <aside>
       <p class="font-bold">LandingPage</p>
       <p class="text-base">
