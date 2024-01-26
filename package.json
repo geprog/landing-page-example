@@ -7,12 +7,14 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages --dotfiles -d .output/public"
   },
   "devDependencies": {
-    "daisyui": "^4.6.0",
-    "nuxt": "^3.9.1",
+    "@nuxt/image": "1.0.0-rc.2",
     "@nuxtjs/tailwindcss": "6.8.0",
-    "@nuxt/image": "1.0.0-rc.2"
+    "daisyui": "4.6.0",
+    "gh-pages": "6.1.1",
+    "nuxt": "3.9.1"
   }
 }
