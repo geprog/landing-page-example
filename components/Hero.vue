@@ -3,7 +3,7 @@
     <div class="hero-content flex-col lg:flex-row-reverse">
       <div class="max-w-sm">
         <NuxtPicture
-          src="simon-lee-_B7LjqNXu5Q-unsplash.jpg"
+          src="images/simon-lee-_B7LjqNXu5Q-unsplash.jpg"
           :img-attrs="{
             alt: 'hero',
             class: 'w-full rounded-lg shadow-2xl',

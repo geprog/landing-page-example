@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
   devtools: { enabled: true },
-  image: {
-    dir: 'assets/images',
-  },
+  // app: {
+  //   baseURL: '/landing-page-example/',
+  // },
 });
